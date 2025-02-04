@@ -1,0 +1,86 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.db
+*.sqlite3
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Static files
+static/
+media/
+
+# Environment files
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Local configurations
+*.local
+*.pot
+
+# SASS / LESS cache files
+.sass-cache/
+
+# Coverage reports
+.coverage
+*.cover
+*.log
+
+# Virtualenvs
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Pyenv
+.python-version
+
+# .tox / .nox / .coverage / .hypothesis / .pytest_cache
+.tox/
+.nox/
+.coverage/
+.hypothesis/
+.pytest_cache/
+
+# MySQL/MariaDB (DB configuration)
+*.myd
+*.myi
+*.frm
+*.ibd
+*.ib_logfile*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs (PyCharm, IntelliJ, WebStorm, etc)
+.idea/
+
+# Other editor-specific files
+*.sublime-project
+*.sublime-workspace
