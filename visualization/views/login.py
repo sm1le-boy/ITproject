@@ -4,7 +4,7 @@ from .views import *
 
 def login(request):
     # User.test1()
-    # smile boy
+    # smile boyA
     return render(request,"test.html",{"data":"WTF"})
 
 def test1(request):
